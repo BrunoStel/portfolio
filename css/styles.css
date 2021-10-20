@@ -345,9 +345,16 @@ small{
 	.navigation ul{
 		margin-right: 80px;
 	}
+	.projeto{
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		align-items: flex-start;
+		margin-left: 30px;
+		margin-right: 30px;
+	}
 }
 
-@media (min-width: 1001px) and (max-width: 1100px) {
+@media (min-width: 1001px) and (max-width: 1199px) {
 
 	.main{
 		margin-left: 20px;
@@ -371,6 +378,13 @@ small{
 		margin: 0px 0px 0px 0px;
 		padding: 0px 0px 0px 0px;
 		margin-left: 30px;
+	}
+	.projeto{
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		align-items: flex-start;
+		margin-left: 30px;
+		margin-right: 30px;
 	}
 
 }
@@ -434,10 +448,14 @@ small{
 		margin-left: 10px;
 	}
 	.projeto{
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
 		align-items: flex-start;
 		margin-left: 30px;
 		margin-right: 30px;
 	}
+
+	
 }
 
 
