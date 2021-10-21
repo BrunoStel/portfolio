@@ -139,9 +139,11 @@ body {
 	text-transform: uppercase;
 	font-weight: normal;
 	margin-top: 40px;
-	
 }
-
+.curriculo hr{
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
 .main h3 {
 	color: #f27609;
 	font-size: 12px;
@@ -362,6 +364,9 @@ small{
 	.main h1, .caminho{
 		margin-left:-10px;
 	}
+	.curriculo h1{
+		margin-left: 0px;
+	}
 	.capa{
 		display: flex;
 		flex-direction: row;
@@ -393,7 +398,6 @@ small{
 	.main{
 			display: flex;
 			flex-direction: column;
-			align-items: center;
 			margin-top: 0px;
 			padding-top: 0px;
 	}
@@ -453,6 +457,22 @@ small{
 		align-items: flex-start;
 		margin-left: 30px;
 		margin-right: 30px;
+		margin-bottom: 30px;
+	}
+	.blackbox {
+		opacity: 0.7;
+	}
+	
+	.curriculo hr{
+		width: 500px;
+		margin-bottom: 20px;
+		margin-left: 0px;
+	}
+	
+	.sobre{
+		display: inline-block;
+		margin-left: 0px;
+		padding-top: 0px;
 	}
 
 	
@@ -467,10 +487,25 @@ small{
 		margin: 0px 0px 0px 0px;
 		padding: 0px 0px 0px 0px;
 	}
+	.main p {
+		color: white;
+		font-size: 18px;
+		font-weight: 100;
+		line-height: 24px;
+		text-align: justify;
+	}
+	.curriculo{
+		margin-left: 30px;
+		margin-right: 30px;
+		margin-bottom: 30px;
+	}
 	.projeto{
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
 		align-items: flex-start;
 		margin-left: 30px;
 		margin-right: 30px;
+		margin-bottom: 30px;
 	}
 
 	.portfolio{
@@ -499,10 +534,17 @@ small{
 	.redes a{
 		margin-left: 10px;
 	}
-.sobre{
+		.sobre{
 	display: inline-block;
 	margin-left: 0px;
 	padding-top: 0px;
+	}
+
+
+.curriculo hr{
+	margin: 0px;
+	width: 300px;
+	margin-bottom: 20px;
 }
 
 .navigation ul{
@@ -561,7 +603,6 @@ small{
 	margin: 0px 0px 0px 0px;
 	padding:0px 0px 0px 0px;
 	line-height: 25px;
-	
 }
 
 .main a{
@@ -569,11 +610,7 @@ small{
   	word-wrap: break-word;
 }
 
-.main p {
-	text-align: left;
-	line-height: 30px;
 
-}
 
 .caminho li {
 	font-size: 15px;
@@ -592,7 +629,7 @@ small{
 }
 
 .blackbox {
-	opacity: 0;
+	opacity: 0.7;
 }
 
 .menujs {
