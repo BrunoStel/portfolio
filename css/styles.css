@@ -45,6 +45,7 @@ body {
 
 .navigation li.threeline-icon {
 	display: none;
+	font-size: 35px
 }
 
 .navigation li.threeline-icon:hover {
@@ -172,13 +173,6 @@ body {
 	margin-left: 250px;
 	margin-right: 250px;
 }
-
-.sobre{
-	display: inline-block;
-	margin-left: -300px;
-	padding-top: 30px;
-}
-
 
 .caminho {
 	list-style: none;
@@ -400,6 +394,9 @@ small{
 		margin-right: 50px;
 		margin-bottom: 50px;
 	}
+	.back-link{
+		padding-bottom: 50px;
+	}
 
 }
 
@@ -478,10 +475,8 @@ small{
 		margin-left: 0px;
 	}
 	
-	.sobre{
-		display: inline-block;
-		margin-left: 0px;
-		padding-top: 0px;
+	.back-link{
+		padding-bottom: 50px;
 	}
 
 	
@@ -569,6 +564,8 @@ small{
 
 .navigation li.threeline-icon {
 	display: inline-block;
+
+	
 }
 
 .capa div {
@@ -659,6 +656,9 @@ small{
 	width: 100%;
 	padding: 0;
 
+}
+.back-link{
+	padding-bottom: 50px;
 }
 
 }
