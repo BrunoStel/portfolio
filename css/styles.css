@@ -64,10 +64,7 @@ body {
 	display: block;
 }
 
-.capa div {
-	display: inline-block;
-	height: 650px;
-}
+
 
 .profile-pic {
 	width: 40%;
@@ -308,7 +305,6 @@ small{
 }
 .footer{
 	font-size: 15px;
-	height: 20vh;
 	background-color: rgb(36, 35, 35);
 	color: white;
 	font-weight: 100;
@@ -316,6 +312,8 @@ small{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .footer .footer_top{
 	margin-top: 10px;
@@ -377,6 +375,10 @@ small{
 		margin-left: 50px;
 		margin-right: 50px;
 		margin-bottom: 50px;
+	}
+	.capa{
+		display: flex;
+		flex-direction: row;
 	}
 	
 }
@@ -584,21 +586,27 @@ small{
 
 	
 }
-
-.capa div {
-	display: block;
-	height: auto;
+.capa{
+	display: grid;
+	grid-template-columns: 1fr;
+	
 }
 
-.profile-pic {
+.profile-pic{
+	display: flex;
+	justify-content: center;
 	width: 100%;
+	padding-left: 30px;
 }
-
 .profile-pic img {
 	margin-top: 0;
-	margin-left: 60px;
-	width: 250px;
-	height: 250px;
+	max-width: 250px;
+	max-height: 250px;
+}
+.index{
+	margin-bottom: 200px;
+	margin-top: 50px;
+	height: 40vh;
 }
 .main h1, .caminho{
 	margin-left:-40px;
