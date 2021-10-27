@@ -345,20 +345,19 @@ small{
 	50% {opacity: 0;}
 	100% {opacity: 1}
 } 
-@media (min-width: 1900px){
+
+
+
+
+@media (min-width: 1400px) {
 	.blocos{
-		grid-template-columns: repeat(6, 1fr);
+		grid-template-columns: repeat(4, 1fr);
 	}
 	.navigation ul{
 		justify-content: center;
 	}
-}
-@media (min-width: 1400px) and (max-width: 1900px) {
-	.blocos{
-		grid-template-columns: repeat(5, 1fr);
-	}
-	.navigation ul{
-		justify-content: center;
+	.portfolio{
+		min-height: 80vh;
 	}
 
 
@@ -380,6 +379,32 @@ small{
 		display: flex;
 		flex-direction: row;
 	}
+	#contato{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	#contato h1, #contato h3{
+		font-size: 30px;
+	}
+	#contato .contato_formatar{
+		font-size: 20px;
+	}
+	.redes img:first-child{
+		margin-left: 15px;
+		
+	}
+	.footer{
+		font-size: 15px;
+		background-color: rgb(36, 35, 35);
+		color: white;
+		font-weight: 100;
+		display: flex;
+		flex-direction: column;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
 	
 }
 
@@ -421,6 +446,20 @@ small{
 	}
 	.back-link{
 		padding-bottom: 0px;
+	}
+	#contato{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	#contato h1, #contato h3{
+		font-size: 30px;
+	}
+	#contato .contato_formatar{
+		font-size: 20px;
+	}
+	.redes img:first-child{
+		margin-left: 15px;
 	}
 
 }
