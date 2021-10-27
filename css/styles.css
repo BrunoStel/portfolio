@@ -228,14 +228,20 @@ body {
 	background-position: center;
 }
 .git_previsao{
-	font-size: 20px;
+	font-size: 30px;
 	color: white;
 	margin-top: 30px;
 	margin-bottom: 30px;
+	text-align: center;
 }
+.fundo{
+	background-color: #f27609;
+}
+
+
 .git_previsao a{
 	text-decoration: none;
-	color: rgb(109, 108, 194);
+	color: white;
 }
 .git_previsao a:hover, .ul_previsao a:hover{
 	color: rgb(23, 21, 173);
